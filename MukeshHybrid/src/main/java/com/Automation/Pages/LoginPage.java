@@ -13,7 +13,7 @@ public class LoginPage
   }
   @FindBy(name="email") WebElement uname;
   @FindBy(name="password") WebElement pass;
-  @FindBy(xpath="/html/body/div[1]/div/div/form/div/div[3]") WebElement loginbtn;
+  @FindBy(xpath="//div[@class='ui fluid large blue submit button']") WebElement loginbtn;
   
   public void loginToCRM(String usernameApplication,String passwordApplication)
   {
